@@ -32,6 +32,6 @@ addnode=207.154.249.20
 addnode=139.59.142.208
 nodes
 systemctl start bithost.service
-sleep 10
+sleep 20
 bithost-cli getblockcount
 bithost-cli masternode status
